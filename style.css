@@ -1,0 +1,295 @@
+body {
+  margin: 0;
+  font-family: "Alegreya";
+  background-color: #f8f7fb;
+}
+
+a {
+  text-decoration: none;
+}
+
+.home {
+  background-image: url(images/drew-coffman-1872.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
+.bakery {
+  display: inline-block;
+  width: 200px;
+  margin-left: 60px;
+}
+.navbar-nav {
+  list-style-type: none;
+}
+.nav-link {
+  color: black;
+  text-decoration: none;
+}
+.nav-item {
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 18px;
+}
+.navbar {
+  display: inline-block;
+  margin-right: 60px;
+}
+.content {
+  text-align: center;
+  padding-top: 200px;
+  color: white;
+}
+.content h1 {
+  font-size: 76px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.welcome {
+  font-size: 22px;
+}
+.cont-paragraph {
+  font-size: 24px;
+}
+.content button {
+  border-radius: 4px;
+  color: white;
+  padding: 15 20;
+}
+.bg-brown {
+  background-color: #8e7754;
+  border: none;
+}
+.bg-none {
+  background-color: transparent;
+  border-color: white;
+}
+.whoWeAre {
+  width: 90%;
+  padding-top: 75px;
+  padding-bottom: 75px;
+  background-color: white;
+}
+.left-side,
+.right-side {
+  width: 50%;
+  display: inline-block;
+}
+.left-side img {
+  width: 100%;
+}
+.right-side {
+  padding-left: 75px;
+}
+.right-side img {
+  width: 50px;
+}
+.icons {
+  display: inline-block;
+  width: 100%;
+}
+.ourLocation {
+  width: 90%;
+  padding: 90px 15px;
+  background-color: rgb(230, 230, 230);
+}
+.left,
+.right {
+  width: 50%;
+  display: inline-block;
+}
+.right img {
+  width: 100%;
+  padding-right: 15px;
+}
+.right {
+  margin-left: 50px;
+}
+
+.paddingRightLeft {
+  padding-right: 5%;
+  padding-left: 5%;
+}
+
+.alignItemsCenter {
+  display: flex;
+  align-items: center;
+}
+
+.iconAndText {
+  margin-top: 10px;
+}
+.ourBaking {
+  width: 90%;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.intro {
+  margin-bottom: 40px;
+}
+.baking {
+  display: inline-block;
+  width: 25%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.baking img {
+  width: 100%;
+}
+.intro {
+  text-align: center;
+}
+.all {
+  text-align: center;
+}
+.contact {
+  width: 90%;
+  padding-top: 75px;
+  padding-bottom: 75px;
+}
+.contact h2 {
+  font-size: 32px;
+}
+.information,
+.GooglMab {
+  width: 40%;
+  display: inline-block;
+}
+.GooglMab img {
+  width: 100%;
+}
+.GooglMab {
+  padding-left: 75px;
+}
+.bgBlack {
+  background-color: #403d38;
+  width: 90%;
+}
+.bgBlack p {
+  color: #969696;
+}
+.bgBlack li {
+  color: #969696;
+}
+.bgBlack a {
+  color: #969696;
+}
+.bgBlack h4 {
+  color: white;
+}
+.aboutUs {
+  display: inline-block;
+  width: 22%;
+}
+.why {
+  display: inline-block;
+  width: 22%;
+}
+.Opening {
+  display: inline-block;
+  width: 22%;
+}
+.ContactDetails {
+  display: inline-block;
+  width: 22%;
+  position: relative;
+}
+.ContactDetailsBG {
+  position: absolute;
+  background-image: url(images/contact-details-map.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.1;
+  width: 100%;
+  height: 100%;
+}
+.ContactDetails a {
+  z-index: 99;
+}
+.ContactDetails img {
+  margin-right: 10;
+}
+.backGroundColor {
+  color: #000000;
+}
+.padding {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.bgBlack {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  display: flex;
+  align-items: flex-start;
+}
+.bgBlack h4 {
+  margin-bottom: 25px;
+  margin-top: 0;
+  font-size: 18px;
+}
+.MarginBottom {
+  margin-bottom: 20px;
+  margin-top: 0;
+}
+.list {
+  padding-bottom: 15px;
+  border-bottom: 1px solid;
+  margin-bottom: 15px;
+  border-color: #58565250;
+  font-size: 16px;
+}
+ul {
+  padding: 0;
+}
+.links {
+  background-color: #353330;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.lineHeight {
+  line-height: 1.8;
+}
+.BakeryBar {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+.BakeryBar img {
+  margin-bottom: 15px;
+}
+.paragraph {
+  color: #777;
+  margin-bottom: 30px;
+  font-size: 15px;
+}
+.link {
+  display: flex;
+  align-items: center;
+}
+
+.whoWeAre p,
+.ourLocation p,
+.ourBaking p,
+.contact p {
+  color: #777;
+}
+
+.ourBaking .all h2 {
+  color: #303030;
+}
+
+.header {
+  background-color: #ffffff80;
+  position: fixed;
+  width: 100%;
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
